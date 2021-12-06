@@ -36,9 +36,6 @@ body{
 
 
 header.primary{
-    background-image: url("../img/SpaceX-Logo.png");
-    background-repeat: no-repeat;
-    background-position: top;
     text-align: center;
     color:black;
     padding-top:40px;
@@ -53,6 +50,13 @@ header.primary{
 header.primary h1 a{
     color:black;
     text-align: justify;
+    height:100%;
+    width:100%;
+    background-image: url("../img/SpaceX-Logo.png");
+    text-indent:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    
 }
     
   
@@ -126,6 +130,7 @@ li{
 
 article.widget{
     background-color:#A0CEDE;
+    width:auto;
    
     
 }
