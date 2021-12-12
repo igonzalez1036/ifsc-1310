@@ -66,7 +66,7 @@ header.primary h1 a{
 
 
 header.primary nav{
-     width:80vw;
+  width:100vw;
   margin:20px auto;
   max-width:900px;
 }
@@ -110,10 +110,6 @@ header nav a:hover, header nav a:active{
     flex-direction:column;
     justify-content:space-between;
     padding: 1.8rem;
-   
-    
-     
-   
 }
 
 #articles article.post{
@@ -125,7 +121,8 @@ header nav a:hover, header nav a:active{
   background-color:#5E5D5E;
   margin-bottom:15px;
   border-radius:15px;
-   box-shadow: 10px 10px 5px black;
+  box-shadow: 10px 10px 5px black;
+  overflow:hidden;
 }
 
 li{
@@ -146,13 +143,17 @@ article.widget{
     background-color:black;
 }
 #colophon h6{
-    padding:20px;
+  padding:20px;
   margin:0;
   text-align: center;
   color:#fff;
   font-size:.8rem;
   text-transform: uppercase;
 }
+#colophon h6 a{
+    color: white;
+}
+    
 
 table,tr,td,th{
     border: 1px solid black;
@@ -176,8 +177,17 @@ table td{
     text-align: center;
 }
 
- .faq li{
-    border-bottom: 3px dashed;
+ .faq li:nth-child(even){
+     background-color:rgba(0,0,0,.3);
+     padding:5px;
+}
+ .faq li:nth-child(odd){
+     background-color:rgba(0,0,0,.1);
+     padding:5px;
+}
+.faq{
+    border:inset 5px blue;
+    margin:auto 20px;
 }
 
 

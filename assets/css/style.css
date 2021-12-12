@@ -1,0 +1,25 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+    color: white;
+    background-color:#95AEDE;
+    background-image: url("../img/background2.jpeg");
+    background-position: 100px 0;
+    font-family: 'Cabin', sans-serif;
+    border:double 3px black;
+    margin:40px auto;
+}
+
+a{
+    color:white;
+}
+h1{
+    margin-left: 10px;
+}
